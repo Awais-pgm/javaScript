@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body Styling start */
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/* Body Styling end */
+
+
+
+/* Main div Styling start */
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(img/Untitled\ design.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Main div Styling end */
+
+
+/* styling -- left section */
+.left{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    
+}
+
+
+/* Styling -- right section */
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    width: 50%;
+}
+/*  styling secure login profile pic inside right section */
+
+
+div .profile{
+    width: 50%;
+    height: 70%;
+    margin-left: 20%;
+}
+
+/* styling avatar inside left section */
+div .avatar{
+    width: 25%;
+    margin-left: 40%;
+}
+
+
+/* styling of div holding all inputs, username,password, submit button e.g */
+.inputHolder{
+    width: 100%;
+    margin:10% auto;
+}
+
+
+/* styling of input div */
+div .input{
+    margin: 0 auto;
+}
+
+/* styling of inputs such as text, password etc */
+div .inputArea{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #0AC1AC;
+}
+/* onfocus styling  of inputs*/
+div .inputArea:focus{
+    outline: 1px solid #0AC1AC;
+}
+/* styling of label of inputs */
+div label{
+    color: #0AC1AC;
+}
+/* styling of submit btn */
+.btn{
+    background-color:#0AC1AC;
+    color: white;
+}
+
+/* styling of submit btn on hover */
+.btn:hover{
+    color:white;
+}
